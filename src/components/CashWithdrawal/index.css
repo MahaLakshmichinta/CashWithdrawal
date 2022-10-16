@@ -1,0 +1,78 @@
+/* Write your CSS here */
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.profile-card {
+  background-color: #150b3e;
+  width: 80%;
+  border-radius: 16px;
+  padding-top: 24px;
+  padding-left: 18px;
+  padding-bottom: 8px;
+  padding-right: 18px;
+  max-width: 350px;
+  height: 60vh;
+}
+
+.user-details {
+  display: flex;
+}
+.container {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  background-color: #c7d2fe;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+}
+.para {
+  font-family: 'Roboto';
+  color: #7c3aed;
+  font-size: 15px;
+}
+.name-user {
+  color: #ffffff;
+  margin: 10px;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+}
+.balance-text {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+.amount-name {
+  color: #d4d2db;
+  font-size: 20px;
+}
+.number {
+  color: #585076;
+}
+.withdraw-container {
+  display: flex;
+  flex-direction: column;
+}
+.para-withdraw {
+  color: #d4d2db;
+  font-size: 20px;
+}
+.text {
+  color: #585076;
+  font-family: 'Roboto';
+}
+.list-initial-container {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
